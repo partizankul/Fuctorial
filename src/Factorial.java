@@ -2,6 +2,15 @@ public class Factorial {
     public static void main(String[] args) {
         System.out.println(fucRecursia(5));
         System.out.println(fucCikl(7));
+        Fibonachi fibonachi = new Fibonachi();
+        fibonachi.fib();
+
+
+        ReversArray reversArray = new ReversArray();
+        reversArray.createArr();
+
+
+
     }
 
     public static int fucRecursia(int nR){
